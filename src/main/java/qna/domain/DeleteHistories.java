@@ -8,7 +8,7 @@ import java.util.Objects;
 
 public class DeleteHistories {
 
-    List<DeleteHistory> deleteHistories = new ArrayList<>();
+    private final List<DeleteHistory> deleteHistories = new ArrayList<>();
 
     public DeleteHistories(List<DeleteHistory> deleteHistories) {
         this.deleteHistories.addAll(deleteHistories);
